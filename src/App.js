@@ -8,7 +8,7 @@ function App() {
 
   const [state, setState] = useState(null)
 
-  console.log(state)
+  
   const handleUrl = (url) => {
     setState(url)
   }
